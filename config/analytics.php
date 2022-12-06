@@ -1,19 +1,24 @@
 <?php
 
 return [
-
+    
     /*
      * The view id of which you want to display data.
      */
     // 'view_id' => env('ANALYTICS_VIEW_ID'),
-    'view_id' => 273543712,
+    // 'view_id' => 273543712, 
+    // 'view_id' => '275147276', 
+    'view_id' => '', 
+    // 'view_id' => 275147276,
 
     /*
      * Path to the client secret json file. Take a look at the README of this package
      * to learn how to get this file. You can also pass the credentials as an array
      * instead of a file path.
      */
-    'service_account_credentials_json' => storage_path('google/analytics-system-359806-596ad1ede923.json'),
+    // 'service_account_credentials_json' => storage_path('google/analytics-system-359806-596ad1ede923.json'),
+    // 'service_account_credentials_json' => storage_path('google/dogwood-actor-362309-40e93f711eb4.json'),
+    'service_account_credentials_json' => '',
 
     /*
      * The amount of minutes the Google API responses will be cached.
